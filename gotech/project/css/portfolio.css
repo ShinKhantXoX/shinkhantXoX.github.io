@@ -1,0 +1,20 @@
+
+.portfolio{
+    background-image: url("../img/about-bg.png");
+    background-repeat: no-repeat;
+}
+.port-card{
+    width: 345px;
+    height: 479px;
+
+    box-shadow: 5px 5px 16px -5px rgba(0,0,0,0.3);
+}
+.portfolio-body a{
+    color: #49BE55;
+}
+
+@media (max-width: 480px) {
+    .port-card{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,52 @@
+.career{
+    background-image: url("../img/about-bg.png");
+    background-repeat: no-repeat;
+}
+.career-btn{
+    width: 131px;
+    height: 42px;
+    color: var(--primary);
+    border: 1px solid #9D60EB;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: all .3s ease;
+}
+.career-btn:hover{
+    color: var(--light);
+    background: linear-gradient(90deg, #6362d7 20%, #a174db 80% );
+}
+#all-together{
+    width: 131px;
+    height: 42px;
+    color: var(--light);
+    background: linear-gradient(90deg, #6362d7 20%, #a174db 80% );
+    border-radius: 5px;
+    margin-right: 20px;
+}
+#all-together:hover{
+    color: var(--primary);
+    background: none;
+    border: 1px solid #9D60EB;
+}
+.career-btn.fir{
+    color: var(--light);
+    background: linear-gradient(90deg, #6362d7 20%, #a174db 80% );
+    transition: all .3s ease;
+}
+.career-btn.fir:hover{
+    color: var(--primary);
+    background: none;
+    border: 1px solid #9D60EB;
+}
+.career-card{
+    width: 100%;
+    height: 330px;
+    background: var(--light);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+.career-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,29 @@
+.about{
+    background-image: url("../img/about-bg.png");
+    background-repeat: no-repeat;
+}
+.gallery-fir-img{
+    position: relative;
+}
+.gallery-fir-img::before{
+    content: "Dumini Soliman's ";
+    width: auto;
+    height: auto;
+    display: block;
+    color: var(--light);
+
+    position: absolute;
+    left: 55px;
+    bottom: 110px;
+}
+.gallery-fir-img::after{
+    content: 'Lorem ipsum dolor sit amet, vel accumsan';
+    width: auto;
+    height: auto;
+    display: block;
+    color: var(--light);
+
+    position: absolute;
+    left: 55px;
+    bottom: 65px;
+}
